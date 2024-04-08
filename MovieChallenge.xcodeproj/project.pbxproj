@@ -56,15 +56,143 @@
 		EADA63712BC43EF30077222B /* MovieChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				EADA63952BC450000077222B /* Networking */,
+				EADA63942BC44E420077222B /* Model */,
+				EADA638A2BC44A490077222B /* Utilities */,
+				EADA63892BC449780077222B /* Resources */,
+				EADA63862BC449170077222B /* Modules */,
 				EADA63722BC43EF30077222B /* AppDelegate.swift */,
 				EADA63742BC43EF30077222B /* SceneDelegate.swift */,
 				EADA63762BC43EF30077222B /* ViewController.swift */,
 				EADA63782BC43EF30077222B /* Main.storyboard */,
-				EADA637B2BC43EF50077222B /* Assets.xcassets */,
 				EADA637D2BC43EF50077222B /* LaunchScreen.storyboard */,
 				EADA63802BC43EF50077222B /* Info.plist */,
 			);
 			path = MovieChallenge;
+			sourceTree = "<group>";
+		};
+		EADA63862BC449170077222B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EADA63882BC449530077222B /* Movies */,
+				EADA63872BC449310077222B /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EADA63872BC449310077222B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EADA63932BC44DBB0077222B /* Protocols */,
+				EADA638E2BC44BFC0077222B /* Router */,
+				EADA638D2BC44BC70077222B /* Presenter */,
+				EADA638C2BC44BBC0077222B /* Interactor */,
+				EADA638B2BC44BB10077222B /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EADA63882BC449530077222B /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				EADA63922BC44C930077222B /* View */,
+				EADA63912BC44C8C0077222B /* Interactor */,
+				EADA63902BC44C840077222B /* Presenter */,
+				EADA638F2BC44C7D0077222B /* Router */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		EADA63892BC449780077222B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EADA637B2BC43EF50077222B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EADA638A2BC44A490077222B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EADA638B2BC44BB10077222B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EADA638C2BC44BBC0077222B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EADA638D2BC44BC70077222B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EADA638E2BC44BFC0077222B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EADA638F2BC44C7D0077222B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		EADA63902BC44C840077222B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EADA63912BC44C8C0077222B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EADA63922BC44C930077222B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EADA63932BC44DBB0077222B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EADA63942BC44E420077222B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EADA63952BC450000077222B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
