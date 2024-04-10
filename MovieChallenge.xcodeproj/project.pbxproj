@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA12E0922BC6C424002F68CD /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12E0912BC6C424002F68CD /* LoginConfigurator.swift */; };
+		EA12E0942BC6C439002F68CD /* LoginConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA12E0932BC6C439002F68CD /* LoginConfiguratorProtocol.swift */; };
 		EADA63732BC43EF30077222B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63722BC43EF30077222B /* AppDelegate.swift */; };
 		EADA63752BC43EF30077222B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63742BC43EF30077222B /* SceneDelegate.swift */; };
 		EADA63772BC43EF30077222B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63762BC43EF30077222B /* ViewController.swift */; };
 		EADA637A2BC43EF30077222B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EADA63792BC43EF30077222B /* Base */; };
 		EADA637C2BC43EF50077222B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADA637B2BC43EF50077222B /* Assets.xcassets */; };
 		EADA637F2BC43EF50077222B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EADA637E2BC43EF50077222B /* Base */; };
+		EADA63972BC455370077222B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADA63962BC455370077222B /* Login.storyboard */; };
+		EADA639B2BC457350077222B /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA639A2BC457350077222B /* DesignableUITextField.swift */; };
+		EADA639E2BC45A6B0077222B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA639D2BC45A6B0077222B /* RoundedButton.swift */; };
+		EADA63A02BC45D4A0077222B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA639F2BC45D4A0077222B /* LoginViewController.swift */; };
+		EADA63A22BC45F1C0077222B /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63A12BC45F1C0077222B /* LoginInteractor.swift */; };
+		EADA63A42BC45F490077222B /* LoginInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63A32BC45F490077222B /* LoginInteractorProtocol.swift */; };
+		EADA63A62BC460600077222B /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63A52BC460600077222B /* UserRequest.swift */; };
+		EADA63A92BC4611C0077222B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63A82BC4611C0077222B /* User.swift */; };
+		EADA63AB2BC4628B0077222B /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63AA2BC4628B0077222B /* LoginRouter.swift */; };
+		EADA63AD2BC463220077222B /* LoginViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63AC2BC463220077222B /* LoginViewProtocol.swift */; };
+		EADA63AF2BC465350077222B /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63AE2BC465340077222B /* LoginPresenter.swift */; };
+		EADA63B12BC4655E0077222B /* LoginRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63B02BC4655E0077222B /* LoginRouterProtocol.swift */; };
+		EADA63B32BC4657E0077222B /* LoginPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA63B22BC4657E0077222B /* LoginPresenterProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA12E0912BC6C424002F68CD /* LoginConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
+		EA12E0932BC6C439002F68CD /* LoginConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfiguratorProtocol.swift; sourceTree = "<group>"; };
 		EADA636F2BC43EF30077222B /* MovieChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADA63722BC43EF30077222B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EADA63742BC43EF30077222B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,19 @@
 		EADA637B2BC43EF50077222B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EADA637E2BC43EF50077222B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EADA63802BC43EF50077222B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADA63962BC455370077222B /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		EADA639A2BC457350077222B /* DesignableUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+		EADA639D2BC45A6B0077222B /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		EADA639F2BC45D4A0077222B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EADA63A12BC45F1C0077222B /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		EADA63A32BC45F490077222B /* LoginInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorProtocol.swift; sourceTree = "<group>"; };
+		EADA63A52BC460600077222B /* UserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
+		EADA63A82BC4611C0077222B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EADA63AA2BC4628B0077222B /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		EADA63AC2BC463220077222B /* LoginViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewProtocol.swift; sourceTree = "<group>"; };
+		EADA63AE2BC465340077222B /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		EADA63B02BC4655E0077222B /* LoginRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterProtocol.swift; sourceTree = "<group>"; };
+		EADA63B22BC4657E0077222B /* LoginPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA12E0902BC6C403002F68CD /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				EA12E0912BC6C424002F68CD /* LoginConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
 		EADA63662BC43EF30077222B = {
 			isa = PBXGroup;
 			children = (
@@ -83,11 +121,13 @@
 		EADA63872BC449310077222B /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				EA12E0902BC6C403002F68CD /* Configurator */,
 				EADA63932BC44DBB0077222B /* Protocols */,
 				EADA638E2BC44BFC0077222B /* Router */,
 				EADA638D2BC44BC70077222B /* Presenter */,
 				EADA638C2BC44BBC0077222B /* Interactor */,
 				EADA638B2BC44BB10077222B /* View */,
+				EADA63962BC455370077222B /* Login.storyboard */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -114,6 +154,7 @@
 		EADA638A2BC44A490077222B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				EADA63982BC457200077222B /* Components */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -121,6 +162,7 @@
 		EADA638B2BC44BB10077222B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EADA639F2BC45D4A0077222B /* LoginViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -128,6 +170,7 @@
 		EADA638C2BC44BBC0077222B /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				EADA63A12BC45F1C0077222B /* LoginInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -135,6 +178,7 @@
 		EADA638D2BC44BC70077222B /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				EADA63AE2BC465340077222B /* LoginPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -142,6 +186,7 @@
 		EADA638E2BC44BFC0077222B /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				EADA63AA2BC4628B0077222B /* LoginRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -177,6 +222,11 @@
 		EADA63932BC44DBB0077222B /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				EADA63A32BC45F490077222B /* LoginInteractorProtocol.swift */,
+				EADA63AC2BC463220077222B /* LoginViewProtocol.swift */,
+				EADA63B02BC4655E0077222B /* LoginRouterProtocol.swift */,
+				EADA63B22BC4657E0077222B /* LoginPresenterProtocol.swift */,
+				EA12E0932BC6C439002F68CD /* LoginConfiguratorProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -184,6 +234,7 @@
 		EADA63942BC44E420077222B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EADA63A72BC4610D0077222B /* Login */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +244,40 @@
 			children = (
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		EADA63982BC457200077222B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EADA639C2BC45A5E0077222B /* Button */,
+				EADA63992BC457250077222B /* TextFields */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EADA63992BC457250077222B /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				EADA639A2BC457350077222B /* DesignableUITextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		EADA639C2BC45A5E0077222B /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				EADA639D2BC45A6B0077222B /* RoundedButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		EADA63A72BC4610D0077222B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EADA63A52BC460600077222B /* UserRequest.swift */,
+				EADA63A82BC4611C0077222B /* User.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EADA63972BC455370077222B /* Login.storyboard in Resources */,
 				EADA637C2BC43EF50077222B /* Assets.xcassets in Resources */,
 				EADA637F2BC43EF50077222B /* Base in Resources */,
 				EADA637A2BC43EF30077222B /* Base in Resources */,
@@ -266,9 +352,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EADA63B32BC4657E0077222B /* LoginPresenterProtocol.swift in Sources */,
+				EADA63A02BC45D4A0077222B /* LoginViewController.swift in Sources */,
 				EADA63772BC43EF30077222B /* ViewController.swift in Sources */,
+				EADA63A62BC460600077222B /* UserRequest.swift in Sources */,
+				EADA63A22BC45F1C0077222B /* LoginInteractor.swift in Sources */,
+				EADA63AD2BC463220077222B /* LoginViewProtocol.swift in Sources */,
+				EA12E0942BC6C439002F68CD /* LoginConfiguratorProtocol.swift in Sources */,
+				EADA639E2BC45A6B0077222B /* RoundedButton.swift in Sources */,
 				EADA63732BC43EF30077222B /* AppDelegate.swift in Sources */,
 				EADA63752BC43EF30077222B /* SceneDelegate.swift in Sources */,
+				EADA63AF2BC465350077222B /* LoginPresenter.swift in Sources */,
+				EADA63A42BC45F490077222B /* LoginInteractorProtocol.swift in Sources */,
+				EADA63AB2BC4628B0077222B /* LoginRouter.swift in Sources */,
+				EADA63A92BC4611C0077222B /* User.swift in Sources */,
+				EADA63B12BC4655E0077222B /* LoginRouterProtocol.swift in Sources */,
+				EA12E0922BC6C424002F68CD /* LoginConfigurator.swift in Sources */,
+				EADA639B2BC457350077222B /* DesignableUITextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,9 +535,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonnyrivera.MovieChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,9 +567,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonnyrivera.MovieChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
